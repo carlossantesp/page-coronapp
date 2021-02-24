@@ -21,6 +21,7 @@ const theme = {
   lineHNormalTitle: "22.16px",
 
   colorPrimary: "#1D957F",
+  colorPrimaryAlt: "#19806D",
   colorSecondary: "#4285F4",
   colorText: "#000000",
   colorTextAccent: "#616161",
