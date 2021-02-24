@@ -26,7 +26,10 @@ export const BsVideo = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M14.5 13.4019L19 16L14.5 18.5981V13.4019Z" fill="black" />
+      <path
+        d="M14.5 13.4019L19 16L14.5 18.5981V13.4019Z"
+        fill="current-color"
+      />
       <path
         fillRule="evenodd"
         clipRule="evenodd"

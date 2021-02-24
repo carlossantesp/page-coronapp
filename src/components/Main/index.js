@@ -1,9 +1,10 @@
 import React from "react";
+import Hero from "../Hero";
 
 const Main = ({ services, metrics, sliderInfo }) => {
   return (
     <main>
-      <p>Secciones del sitio</p>
+      <Hero />
     </main>
   );
 };
