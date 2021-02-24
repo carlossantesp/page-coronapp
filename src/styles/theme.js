@@ -31,7 +31,7 @@ const theme = {
   boxShadow: `0 4px 18px rgba(88,126,236,0.18)`,
   boxShadowAlt: `0 2px 24px rgba(88,126,236,0.15)`,
 
-  shadowPhone: `0 4px 4px rgba(0,0,0,0.25)`,
+  shadowPhone: `0 8px 8px rgba(0,0,0,0.25)`,
 
   mixins,
 };
