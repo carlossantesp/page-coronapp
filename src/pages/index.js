@@ -1,10 +1,17 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Main from "../components/Main";
+
+import { services, metrics, sliderInfo } from "../data/apiData";
 
 const Home = () => {
   return (
-    <div>
-      <h1>CoronaApp</h1>
-    </div>
+    <Fragment>
+      <Header />
+      <Main services={services} metrics={metrics} sliderInfo={sliderInfo} />
+      <Footer />
+    </Fragment>
   );
 };
 

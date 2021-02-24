@@ -25,6 +25,18 @@ const GlobalStyle = createGlobalStyle`
   svg{
     fill:currentColor;
   }
+
+  #root {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    position: relative;
+    @media screen and (min-width: 992px){
+      padding: 0 3.5rem;
+    }
+  }
 `;
 
 export default GlobalStyle;

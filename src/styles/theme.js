@@ -22,7 +22,7 @@ const theme = {
 
   colorPrimary: "#1D957F",
   colorSecondary: "#4285F4",
-  colorText: "#00000",
+  colorText: "#000000",
   colorTextAccent: "#616161",
   colorBg: "#FFFFFF",
   colorBgAccent: "#FAFBFD",
