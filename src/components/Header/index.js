@@ -13,7 +13,7 @@ import { BsMenu } from "../../icons/basics";
 import logo from "../../assets/logo.svg";
 
 const Header = () => {
-  const [toggle, setToggle] = useState("false");
+  const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
     setToggle(!toggle);
