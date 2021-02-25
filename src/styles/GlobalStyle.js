@@ -36,10 +36,6 @@ const GlobalStyle = createGlobalStyle`
     @media screen and (min-width: 992px){
       padding: 0 3.5rem;
     }
-    @media screen and (min-width: 1200px){
-      max-width: 1100px;
-      margin: 0 auto;
-    }
   }
 `;
 

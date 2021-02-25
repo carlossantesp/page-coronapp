@@ -26,9 +26,9 @@ export const sliderInfo = [
 ];
 
 export const metrics = {
-  users: 2,
-  countries: 78,
-  doctors: 10.0,
+  users: "2m",
+  countries: "78",
+  doctors: "10,000+",
 };
 
 export const services = [

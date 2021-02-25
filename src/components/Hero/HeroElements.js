@@ -20,6 +20,9 @@ export const HeroWrapper = styled.section`
     z-index: 10;
     margin: 4.125rem auto;
   }
+  @media screen and (min-width: 1200px) {
+    max-width: 1100px;
+  }
 `;
 export const HeroInformation = styled.div`
   grid-area: information;
