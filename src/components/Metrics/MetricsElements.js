@@ -1,11 +1,7 @@
 import styled from "styled-components";
 
 export const MetricsSection = styled.section`
-  background-color: ${({ theme }) => theme.colorBgAccent};
-  margin: 0 -1rem;
-  padding: 2.5rem 1rem;
   position: relative;
-  z-index: -2;
   @media screen and (min-width: 768px) {
     padding: 3.75rem 1rem;
     &::before {
@@ -21,9 +17,6 @@ export const MetricsSection = styled.section`
       left: 50%;
       transform: translateX(-80%) rotate(15deg);
     }
-  }
-  @media screen and (min-width: 992px) {
-    margin: 0 -3.5rem;
   }
 `;
 export const MetricsWrapper = styled.div`

@@ -13,9 +13,6 @@ export const FeatureWrapper = styled.section`
     grid-gap: 1.5rem;
     align-items: center;
   }
-  @media screen and (min-width: 1200px) {
-    max-width: 1100px;
-  }
 `;
 export const FeatureSlider = styled.div`
   grid-area: slider;
