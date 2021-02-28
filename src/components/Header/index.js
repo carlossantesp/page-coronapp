@@ -30,7 +30,7 @@ const Header = () => {
         <BsMenu />
       </HeaderMenu>
       <HeaderNavBar toggle={toggle}>
-        <Navbar />
+        <Navbar handleToggle={handleToggle} />
       </HeaderNavBar>
     </HeaderWrapper>
   );

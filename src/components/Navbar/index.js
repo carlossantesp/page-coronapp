@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLists, NavItem, NavLink } from "./NavbarElements";
 
-const Navbar = () => {
+const Navbar = ({ handleToggle }) => {
   return (
     <NavLists>
       <NavItem>
@@ -12,6 +12,7 @@ const Navbar = () => {
           offset={0}
           duration={500}
           exact="true"
+          onClick={handleToggle}
         >
           Inicio
         </NavLink>
@@ -24,6 +25,7 @@ const Navbar = () => {
           offset={-40}
           duration={500}
           exact="true"
+          onClick={handleToggle}
         >
           Caracteristicas
         </NavLink>
@@ -36,6 +38,7 @@ const Navbar = () => {
           offset={-40}
           duration={500}
           exact="true"
+          onClick={handleToggle}
         >
           Apoyo
         </NavLink>
@@ -48,6 +51,7 @@ const Navbar = () => {
           offset={-40}
           duration={500}
           exact="true"
+          onClick={handleToggle}
         >
           Contáctanos
         </NavLink>

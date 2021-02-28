@@ -2,12 +2,19 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderWrapper = styled.header`
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   padding-top: 2.25rem;
   padding-bottom: 1.5rem;
   ${({ theme }) => theme.mixins.flexBetween};
   overflow: hidden;
   @media screen and (min-width: 992px) {
     margin-right: 18.5rem;
+    position: initial;
+    top: initial;
+    z-index: initial;
     &::after {
       content: "";
       position: absolute;
@@ -54,7 +61,7 @@ export const HeaderNavBar = styled.nav`
   right: ${({ toggle }) => (toggle ? "0" : "-100%")};
   z-index: 1;
   width: 20rem;
-  height: 100%;
+  height: 100vh;
   background-color: ${({ theme }) => theme.colorPrimary};
   color: ${({ theme }) => theme.colorBg};
   padding-top: 3rem;
