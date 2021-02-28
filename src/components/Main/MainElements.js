@@ -8,7 +8,7 @@ export const MainPrimary = styled.div`
 `;
 export const MainAlt = styled.div`
   position: relative;
-  z-index: -3;
+  z-index: 1;
   background-color: ${({ theme }) => theme.colorBgAccent};
   margin: 0 -1rem;
   padding: 2.5rem 1rem 3.75rem 1rem;
