@@ -13,10 +13,10 @@ const Feature = ({ sliderInfo }) => {
     description:
       "Soporte 24x7 y plataforma móvil fácil de usar para llevar la atención médica a su alcance. Regístrese y sea parte de la nueva cultura de la salud.",
     buttonLabel: "Empezar",
-    buttonLink: "/",
+    buttonLink: "attentions",
   };
   return (
-    <FeatureWrapper>
+    <FeatureWrapper id="features">
       <FeatureSlider>
         <Slider sliderInfo={sliderInfo} />
       </FeatureSlider>

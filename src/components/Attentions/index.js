@@ -9,7 +9,7 @@ import {
 
 const Attentions = ({ attentions }) => {
   return (
-    <AttentionsContent>
+    <AttentionsContent id="attentions">
       <AttentionTitle>
         Cuidado de la salud <span>al alcance de tu mano</span>
       </AttentionTitle>

@@ -5,16 +5,52 @@ const Navbar = () => {
   return (
     <NavLists>
       <NavItem>
-        <NavLink to="/">Inicio</NavLink>
+        <NavLink
+          to="root"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          exact="true"
+        >
+          Inicio
+        </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to="/">Caracteristicas</NavLink>
+        <NavLink
+          to="features"
+          spy={true}
+          smooth={true}
+          offset={-40}
+          duration={500}
+          exact="true"
+        >
+          Caracteristicas
+        </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to="/">Apoyo</NavLink>
+        <NavLink
+          to="experts"
+          spy={true}
+          smooth={true}
+          offset={-40}
+          duration={500}
+          exact="true"
+        >
+          Apoyo
+        </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to="/">Contáctanos</NavLink>
+        <NavLink
+          to="attentions"
+          spy={true}
+          smooth={true}
+          offset={-40}
+          duration={500}
+          exact="true"
+        >
+          Contáctanos
+        </NavLink>
       </NavItem>
     </NavLists>
   );

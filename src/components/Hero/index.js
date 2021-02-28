@@ -16,7 +16,7 @@ const Hero = () => {
     description:
       "Todo en un destino para consultas de salud de COVID-19. Consulte a más de 10,000 trabajadores de la salud sobre sus inquietudes.",
     buttonLabel: "Empiezar",
-    buttonLink: "/",
+    buttonLink: "attentions",
   };
 
   return (

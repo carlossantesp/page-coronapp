@@ -14,14 +14,14 @@ const Expert = () => {
     description:
       "Reserve citas o envíe consultas a miles de foros sobre problemas de salud y prevención contra el Corona Virus.",
     buttonLabel: "Caracteristicas",
-    buttonLink: "/",
+    buttonLink: "features",
   };
   const dataVideo = {
     poster: posterVideo,
     posterAlt: "Video de expertos",
   };
   return (
-    <ExpertWrapper>
+    <ExpertWrapper id="experts">
       <ExpertInformation>
         <Information data={data} />
       </ExpertInformation>

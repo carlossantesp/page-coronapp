@@ -20,7 +20,18 @@ const ButtonLink = styled(Link)`
   }
 `;
 const Button = ({ children, linkRef }) => {
-  return <ButtonLink to={linkRef}>{children}</ButtonLink>;
+  return (
+    <ButtonLink
+      to={linkRef}
+      spy={true}
+      smooth={true}
+      offset={-40}
+      duration={500}
+      exact="true"
+    >
+      {children}
+    </ButtonLink>
+  );
 };
 
 export default Button;
