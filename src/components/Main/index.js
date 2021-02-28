@@ -3,6 +3,7 @@ import Hero from "../Hero";
 import Feature from "../Feature";
 import Metrics from "../Metrics";
 import Expert from "../Expert";
+import Attentions from "../Attentions";
 import { MainPrimary, MainAlt } from "./MainElements";
 
 const Main = ({ services, metrics, sliderInfo }) => {
@@ -16,6 +17,9 @@ const Main = ({ services, metrics, sliderInfo }) => {
         <Metrics metrics={metrics} />
         <Expert />
       </MainAlt>
+      <MainPrimary>
+        <Attentions attentions={services} />
+      </MainPrimary>
     </main>
   );
 };
